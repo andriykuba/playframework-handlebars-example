@@ -1,0 +1,37 @@
+# Idea
+/.idea
+/.idea_modules
+
+# General
+/db
+/lib/
+/modules
+*~
+*.log
+.cache
+*.eml
+server.pide
+tmp
+dump
+test-result
+
+# Eclipse
+.eclipse
+.settings
+.cache
+.project
+.classpath
+.scala_dependencies
+bin
+
+# SBT
+dist
+project/boot
+project/target
+project/plugins/target
+target
+.target
+
+# Play
+logs
+RUNNING_PID

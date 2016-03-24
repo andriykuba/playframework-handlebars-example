@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" media="screen" href="{{asset "stylesheets/main.css"}}">
+    <link rel="shortcut icon" type="image/png" href="{{asset "images/favicon.png"}}">
+    <script src="{{asset "javascripts/hello.js"}}" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+	   {{header}}<br>
+	   {{message "page.header.sub" "name"}}
+	</header>
+    <main>
+	    <article>
+	    {{#block "content" }}
+		{{/block}}
+	    </article>
+    </main>
+    <footer>
+        {{footer}}
+    </footer>
+</body>
+</html>

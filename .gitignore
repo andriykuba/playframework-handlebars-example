@@ -22,6 +22,7 @@ test-result
 .project
 .classpath
 .scala_dependencies
+.DS_Store
 bin
 
 # SBT
